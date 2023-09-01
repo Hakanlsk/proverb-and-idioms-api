@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html{
+  font-size: 10px;
+}
+body {
+  background-color: blue;
+  background-image: linear-gradient(315deg, blue 0%, white 100%);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+}
+#kapsayici {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem 0.2rem rgba(100, 100, 100, 0.1);
+  width: 60rem;
+  height: 40vh;
+  margin: 2rem
+}
+#baslik{
+  text-align: center;
+  margin: 1rem;
+}
+input,label {
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+#aramaListesi{
+
+
+}
+#sonuc{
+    margin: 5rem 0;
+    font-size: 1.5rem
+}
